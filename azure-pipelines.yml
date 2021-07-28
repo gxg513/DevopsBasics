@@ -25,7 +25,6 @@ steps:
     SourceFolder: '$(System.DefaultWorkingDirectory)'
     Contents: |
       **/webapp.war
-      **/server.jar
     TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishPipelineArtifact@1
   inputs:
